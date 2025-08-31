@@ -10,6 +10,7 @@ public class LambdaExample {
 
         task1.run();
 
+        // lambda example
         Runnable task2 = () -> System.out.println("Runnable task with Lambda");
         task2.run();
     }
