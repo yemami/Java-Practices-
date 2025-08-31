@@ -9,5 +9,8 @@ public class LambdaExample {
         };
 
         task1.run();
+
+        Runnable task2 = () -> System.out.println("Runnable task with Lambda");
+        task2.run();
     }
 }
